@@ -1,20 +1,56 @@
-# Binding Expando and Dynamic objects to a Blazor Data Grid
+# Blazor Data Grid- Binding Expando and Dynamic Objects
 
-A quick start Blazor WebAssembly app that helps you to bind the Expando and Dynamic Objects to a Blazor Data Grid. 
+This sample shows how to bind Expando and dynamic objects to a [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid) in a Blazor WebAssembly app.
 
-**Documentation**:
-* https://blazor.syncfusion.com/documentation/datagrid/data-binding/#expandoobject-binding
-* https://blazor.syncfusion.com/documentation/datagrid/data-binding/#dynamicobject-binding
+## Overview
 
-**Online examples**: https://blazor.syncfusion.com/demos/datagrid/expandoobject
+- Uses Blazor Grid with dynamic row data
+- Demonstrates both ExpandoObject and custom DynamicObject binding patterns
+- Includes a minimal Blazor WebAssembly shell for quick experimentation
+- Shows a simple setup for comparing static and dynamic data models in the grid
+
+## Features
+
+- Bind ExpandoObject data to the Blazor DataGrid
+- Bind custom DynamicObject data to the Blazor DataGrid
+- Render editable, formatted columns with date and currency support
+- Use a lightweight Blazor WebAssembly app for rapid testing
 
 ## Prerequisites
 
-* Visual Studio 2022
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+### Clone the repository
+
+```bash
+git clone https://github.com/SyncfusionExamples/binding-expando-and-dynamic-objects-to-a-blazor-data-grid.git
+cd binding-expando-and-dynamic-objects-to-a-blazor-data-grid
+```
+
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run
+```
+
+## Learn more
+
+**Documentation**: https://blazor.syncfusion.com/documentation/datagrid/data-binding/#dynamicobject-binding
+
+**Online Example**: https://blazor.syncfusion.com/demos/datagrid/expandoobject
+
